@@ -5,6 +5,11 @@ PRODUCT_PACKAGES += \
     GalleryGoPrebuilt \
     PixelThemes
 
+#OmniJaws
+PRODUCT_PACKAGES += \
+    OmniJaws \
+    WeatherIcons
+
 # Call Overlay
 DEVICE_PACKAGE_OVERLAYS += vendor/devilian/overlay/common
 
