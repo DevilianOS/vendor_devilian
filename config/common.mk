@@ -78,4 +78,5 @@ PRODUCT_ENFORCE_RRO_EXCLUDED_OVERLAYS += vendor/devilian/overlay
 # Bootanimation
 include vendor/devilian/config/bootanimation.mk
 
+#Pckages
 include vendor/devilian/config/devilian_packages.mk

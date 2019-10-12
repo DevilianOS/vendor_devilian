@@ -2,7 +2,8 @@
 PRODUCT_PACKAGES += \
     ThemePicker \
     Lawnchair \
-    GalleryGoPrebuilt
+    GalleryGoPrebuilt \
+    PixelThemes
 
 # Call Overlay
 DEVICE_PACKAGE_OVERLAYS += vendor/devilian/overlay/common
