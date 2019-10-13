@@ -49,7 +49,6 @@ LOCAL_DEX_PREOPT := false
 LOCAL_PRODUCT_MODULE := true
 include $(BUILD_PREBUILT)
 
-#Pixel Theme
 include $(CLEAR_VARS)
 LOCAL_MODULE := PixelThemes
 LOCAL_MODULE_TAGS := optional
@@ -60,5 +59,3 @@ LOCAL_MODULE_SUFFIX := $(COMMON_ANDROID_PACKAGE_SUFFIX)
 LOCAL_DEX_PREOPT := false
 LOCAL_PRODUCT_MODULE := true
 include $(BUILD_PREBUILT)
-
-include $(call all-makefiles-under,$(LOCAL_PATH))
