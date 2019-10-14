@@ -52,6 +52,9 @@ type Product_variables struct {
 		Cppflags []string
 		Shared_libs []string
 	}
+	Target_init_vendor_lib struct {
+		Whole_static_libs []string
+	}
 	Uses_qcom_um_family struct {
 		Cflags []string
 		Srcs []string
@@ -90,6 +93,7 @@ type ProductVariables struct {
 	Java_Source_Overlays *string `json:",omitempty"`
 	Should_skip_waiting_for_qsee  *bool `json:",omitempty"`
 	Specific_camera_parameter_library  *string `json:",omitempty"`
+	Target_init_vendor_lib  *string `json:",omitempty"`
 	Supports_hw_fde  *bool `json:",omitempty"`
 	Supports_hw_fde_perf  *bool `json:",omitempty"`
 	Supports_legacy_hw_fde  *bool `json:",omitempty"`
