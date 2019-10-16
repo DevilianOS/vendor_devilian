@@ -1,6 +1,7 @@
 # Additional package
 PRODUCT_PACKAGES += \
-    ThemePicker
+    ThemePicker \
+    Lawnchair
 
 # Call Overlay
 DEVICE_PACKAGE_OVERLAYS += vendor/devilian/overlay/common
